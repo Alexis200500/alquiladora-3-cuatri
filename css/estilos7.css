@@ -1,0 +1,96 @@
+
+
+.menu {
+background-color:  #00d8ff;
+width: 100%;
+height: 100%;
+margin: auto;
+padding-top: 20px; 
+
+
+}
+table .menu{
+	height: 20px;
+
+}
+ul{
+				list-style: none ;
+				font-family: Arial,Helvetica, sans-serif;
+				z-index: 5;
+
+
+    float: right;
+
+    margin: 0 15px 0 0
+			}
+			li{
+				list-style: none ;
+				font-family: Arial,Helvetica, sans-serif;
+				z-index: 5;
+				padding-right: 5px;
+
+
+  
+			}
+			.nav li a{
+				background-color: #082fb1;
+
+			}
+			/*numero 2*/
+			.nav li a{
+				background-color:  #f3172b;
+				color: #fff;
+				text-decoration: none;
+				padding: 10px 15px;
+				display: block;
+				margin-top: 1px;
+				margin-left: 2px;
+				border-radius: 10px;
+				text-shadow: 0 2px 2px rgba(0,0,0 .7);
+
+			}
+			
+			.nav > li{
+				float: left;
+
+			}
+
+			/*numero3*/
+			.nav li a:hover {
+				background-color: #a9bbf9;
+				color: #fff;
+			}
+				
+			.nav li  ul{
+				display: none;
+				position: absolute;
+				min-width: 350px;
+
+			}
+
+			.nav li:hover > ul{
+				display: block;
+			}
+			.nav li ul li{
+				position: relative;
+			}
+			.nav li ul li ul{
+				left: 30px;
+				top: 0px;
+			}
+
+    table thead {
+      color: #868A08;
+      background-color: #f00;
+      margin:0 auto;
+      margin-bottom: 20px;
+    }
+        table th {
+      color: #111d1e;
+      background-color: #ffffff;
+    }
+        table tr:first-child {
+      color: #111d1e;
+      background-color: #3CB371;
+      
+    }
